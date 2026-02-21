@@ -7,15 +7,16 @@ The program requests data by sending a call to the rung_service.txt file. There 
 
 A REQUEST that includes a custom list:
 
-with open("rung_service.txt", "w") as f:
+```with open("rung_service.txt", "w") as f:
     f.write("Choose_From_1_list\n")
     f.write(",".join(custom_list) + "\n")
+```
 
 A REQUEST for a username that uses a default list:
 
-with open("rung-service.txt", "w") as f:
+```with open("rung-service.txt", "w") as f:
     f.write("generate1")
-
+```
 
 ## How to RECIEVE data
 
