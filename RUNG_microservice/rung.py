@@ -35,7 +35,7 @@ while True:
         secondline = f.readline()
         list1 = [name.strip() for name in secondline.split(",")] # name.strip() removes \n for names at end of lists
         username = f"{random.choice(list1)}" # chooses random name in list
-        with open("rung_service.txt", "w") as p:
+        with open("rung-service.txt", "w") as p:
             p.write(username)
     
     elif firstline == "Choose_From_2_list":
@@ -44,7 +44,7 @@ while True:
         list1 = [name.strip() for name in secondline.split(",")]
         list2 = [name.strip() for name in thirdline.split(",")]
         username = f"{random.choice(list1)} {random.choice(list2)}"
-        with open("rung_service.txt", "w") as p:
+        with open("rung-service.txt", "w") as p:
             p.write(username)
 
     elif firstline == "Choose_From_3_list":
@@ -55,7 +55,7 @@ while True:
         list2 = [name.strip() for name in thirdline.split(",")]
         list3 = [name.strip() for name in fourthline.split(",")]
         username = f"{random.choice(list1)} {random.choice(list2)} {random.choice(list3)}"
-        with open("rung_service.txt", "w") as p:
+        with open("rung-service.txt", "w") as p:
             p.write(username)
 
     if username:
