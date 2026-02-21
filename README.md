@@ -22,5 +22,6 @@ A REQUEST for a username that uses a default list:
 
 After rung.py reads the data within rung_service.txt, it processes the data recived and, from it, selects the appropriate response. This response is always a usable username that is then written into the txt file and recieved in the follwing way: 
 
-with open("rung_service.txt", "r") as f:
+```with open("rung_service.txt", "r") as f:
     rand_username = f.read().strip()
+```
