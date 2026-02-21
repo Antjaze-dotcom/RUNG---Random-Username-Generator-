@@ -34,31 +34,31 @@ editable_list2 = ["Isovel","Ralif","Astrol","Trech","Pragmantia","Yorsif","Hreec
 editable_list3 = ["The Great","The Terrible","The Loathsome","The Stinky","The Horror","The Magnificent"]
 
 #Genereate username from three imported lists
-with open("rung_service.txt", "w") as f:
+with open("rung-service.txt", "w") as f:
     f.write("Choose_From_3_list\n")
     f.write(",".join(editable_list1) + "\n")
     f.write(",".join(editable_list2) + "\n")
     f.write(",".join(editable_list3) + "\n")
 time.sleep(5)
-with open("rung_service.txt", "r") as f:
+with open("rung-service.txt", "r") as f:
     rand_username = f.read().strip()
     print(f"{rand_username}")
 
 #Generate username from two imported lists
-with open("rung_service.txt", "w") as f:
+with open("rung-service.txt", "w") as f:
     f.write("Choose_From_2_list\n")
     f.write(",".join(editable_list1) + "\n")
     f.write(",".join(editable_list2) + "\n")
 time.sleep(5)
-with open("rung_service.txt", "r") as f:
+with open("rung-service.txt", "r") as f:
     rand_username = f.read().strip()
     print(f"{rand_username}")
 
 # generate username from one imported list
-with open("rung_service.txt", "w") as f:
+with open("rung-service.txt", "w") as f:
     f.write("Choose_From_1_list\n")
     f.write(",".join(editable_list1) + "\n")
 time.sleep(5)
-with open("rung_service.txt", "r") as f:
+with open("rung-service.txt", "r") as f:
     rand_username = f.read().strip()
     print(f"{rand_username}")
