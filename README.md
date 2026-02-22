@@ -25,3 +25,5 @@ After rung.py reads the data within rung_service.txt, it processes the data reci
 ```with open("rung_service.txt", "r") as f:
     rand_username = f.read().strip()
 ```
+
+![Alt text] (https://github.com/Antjaze-dotcom/RUNG---Random-Username-Generator-/blob/4b8096ebe3f89d5fdfe2f3a78f2be78f20c4155a/RUNG_sequence_diagram.png)
