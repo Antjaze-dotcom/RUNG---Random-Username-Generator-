@@ -26,4 +26,6 @@ After rung.py reads the data within rung_service.txt, it processes the data reci
     rand_username = f.read().strip()
 ```
 
-<img width="2541" height="1353" alt="RUNG_sequence_diagram" src="https://github.com/user-attachments/assets/2335d96b-cd38-4c21-9a3e-c8cb994fa763" />
+
+<img width="2557" height="1426" alt="RUNG_UML_sequence_diagram" src="https://github.com/user-attachments/assets/cbec86e8-eb51-4ca1-8c57-4b5ed7dbe12e" />
+
